@@ -65,6 +65,9 @@ a:visited{
 
     margin:20px 0px;
 }
+.clr{
+    clear: both;
+}
 
 .box_1 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -119,4 +122,11 @@ a:visited{
     color: #fff;
     padding: 10px 15px;
     border: none;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding:10px;
+    box-sizing: border-box;
 }
