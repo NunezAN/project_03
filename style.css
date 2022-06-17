@@ -21,10 +21,10 @@ a:active{
     color: green;
 }
 a:visited{
-   s
+   /*emptied to remove overlapping colors*/
 }
 .container{
-    width: 80%;
+    width:80% ;
     margin: auto;
 }
 .button{
@@ -128,5 +128,19 @@ a:visited{
     width: 33.3%;
     border: 1px solid #ccc;
     padding:10px;
+    box-sizing: border-box;
+}
+#main_block{
+    float:left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float:right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
     box-sizing: border-box;
 }
