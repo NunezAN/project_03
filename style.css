@@ -171,3 +171,15 @@ a:visited{
     position: fixed;
     top:400px;
 }
+.mylist li:first-child{
+    background: red;
+}
+.mylist li:last-child{
+    background: red;
+}
+.mylist li:nth-child(5){
+    background: yellow;
+}
+.mylist li:nth-child(even){
+    background: gray;
+}
